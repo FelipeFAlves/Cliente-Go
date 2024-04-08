@@ -1,0 +1,8 @@
+syntax = "proto3";
+package contact;
+option go_package = "github.com/FelipeFAlves/testecliente2/contact";
+message Pessoa {
+  string nome = 1;
+  int32 idade = 2;
+  string cidade = 3;
+}
